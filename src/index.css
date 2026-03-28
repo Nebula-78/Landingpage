@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    @apply bg-midnight text-cloud font-sans overflow-x-hidden;
+  }
+
+  /* Focus visible — accessibilité clavier */
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-forest-muted rounded-sm;
+  }
+}
+
+@layer components {
+  /* ── BOUTONS ───────────────────────────────────── */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2
+           font-sans font-semibold rounded-full
+           transition-all duration-200 ease-out
+           focus-visible:ring-2 focus-visible:ring-forest-muted focus-visible:ring-offset-2 focus-visible:ring-offset-midnight
+           disabled:opacity-50 disabled:cursor-not-allowed
+           whitespace-nowrap select-none;
+  }
+
+  .btn-primary {
+    @apply btn bg-forest text-cloud px-8 py-4 text-base
+           hover:bg-forest-light hover:-translate-y-0.5 hover:shadow-forest
+           active:translate-y-0 active:scale-95
+           animate-pulse-ring;
+  }
+
+  .btn-secondary {
+    @apply btn bg-transparent text-forest-muted px-7 py-[13px] text-[0.95rem]
+           border border-forest-muted
+           hover:bg-forest/20 hover:text-cloud hover:border-forest-light hover:-translate-y-0.5
+           active:translate-y-0 active:scale-95;
+  }
+
+  .btn-ghost {
+    @apply btn bg-transparent text-cloud/70 px-7 py-[13px] text-[0.95rem]
+           border border-cloud/15
+           hover:bg-cloud/8 hover:text-cloud hover:border-cloud/35 hover:-translate-y-0.5
+           active:translate-y-0 active:scale-95;
+  }
+
+  .btn-gold {
+    @apply btn bg-gold text-cloud px-9 py-4 text-[1.05rem] font-bold
+           hover:bg-gold-dark hover:-translate-y-0.5 hover:shadow-gold
+           active:translate-y-0 active:scale-95;
+  }
+
+  .btn-sm {
+    @apply px-5 py-[10px] text-sm;
+  }
+
+  /* ── CARDS ─────────────────────────────────────── */
+  .card {
+    @apply bg-cloud/[0.04] border border-cloud/[0.08] rounded-2xl
+           transition-all duration-300;
+  }
+
+  .card-hover {
+    @apply card hover:shadow-card hover:-translate-y-1 hover:border-cloud/15;
+  }
+
+  /* ── TYPOGRAPHY ────────────────────────────────── */
+  .section-label {
+    @apply inline-flex items-center gap-1.5
+           bg-forest/20 text-forest-muted
+           px-4 py-1.5 rounded-full
+           text-xs font-bold tracking-widest uppercase
+           mb-5;
+  }
+
+  .section-title {
+    @apply font-serif font-extrabold text-cloud leading-[1.15] tracking-tight mb-4;
+    font-size: clamp(1.9rem, 4vw, 2.75rem);
+  }
+
+  .section-sub {
+    @apply text-[1.05rem] text-cloud/55 leading-relaxed;
+  }
+
+  /* ── LAYOUT ────────────────────────────────────── */
+  .container-page {
+    @apply max-w-[1140px] mx-auto px-6;
+  }
+
+  .section-header {
+    @apply text-center max-w-[640px] mx-auto mb-14;
+  }
+}
+
+@layer utilities {
+  .text-balance { text-wrap: balance; }
+  .bg-cloud\/8  { background-color: rgba(242,237,231,0.08); }
+}
