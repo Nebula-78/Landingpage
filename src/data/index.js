@@ -269,7 +269,7 @@ export const aboutChecklist = [
   },
   {
     title: 'Un copy rédigé pour vous',
-    desc: 'Je rédige les textes avec les techniques de copywriting éprouvées. Vous n'écrivez rien.',
+    desc: `Je rédige les textes avec les techniques de copywriting éprouvées. Vous n'écrivez rien.`,
   },
   {
     title: 'Livraison ce weekend',
@@ -304,24 +304,24 @@ export const benefits = [
   {
     icon: '✍️',
     title: 'Un copy qui convertit, pas qui informe',
-    desc: 'Les textes sont rédigés pour convaincre et pousser à l'action — pas pour faire joli.',
+    desc: `Les textes sont rédigés pour convaincre et pousser à l'action — pas pour faire joli.`,
     tag: 'Persuasion',
   },
   {
     icon: '🎨',
-    title: 'Design premium sans budget d'agence',
-    desc: 'L'esthétique d'une grande marque, au prix que vous pouvez vous permettre.',
+    title: `Design premium sans budget d'agence`,
+    desc: `L'esthétique d'une grande marque, au prix que vous pouvez vous permettre.`,
     tag: 'Qualité/prix',
   },
   {
     icon: '🚀',
     title: 'Mise en ligne incluse, zéro effort',
-    desc: 'Je m'occupe du déploiement. Vous recevez un lien live — sans rien installer ni configurer.',
+    desc: `Je m'occupe du déploiement. Vous recevez un lien live — sans rien installer ni configurer.`,
     tag: 'Clé en main',
   },
   {
     icon: '🔁',
-    title: 'Révisions jusqu'à votre satisfaction',
+    title: `Révisions jusqu'à votre satisfaction`,
     desc: 'Vous aimez ou on retravaille. Votre satisfaction est non-négociable.',
     tag: 'Garanti',
   },
@@ -344,7 +344,7 @@ export const steps = [
   {
     num: '03',
     title: 'Révisions & Peaufinage',
-    desc: 'Vous donnez votre avis, j'ajuste jusqu'à ce que ce soit parfait pour vous.',
+    desc: `Vous donnez votre avis, j'ajuste jusqu'à ce que ce soit parfait pour vous.`,
     time: 'Dimanche matin',
   },
   {
@@ -365,7 +365,7 @@ export const testimonials = [
     result: '+312% de leads en 30 jours',
     featured: true,
     quote:
-      'Steve a livré ma landing page en un weekend complet. Je n'y croyais pas trop au départ, mais le résultat est bluffant. Mes visiteurs restent sur la page et convertissent vraiment. C'est pro, rapide et rentable.',
+      `Steve a livré ma landing page en un weekend complet. Je n'y croyais pas trop au départ, mais le résultat est bluffant. Mes visiteurs restent sur la page et convertissent vraiment. C'est pro, rapide et rentable.`,
   },
   {
     name: 'Aya Traoré',
@@ -374,16 +374,16 @@ export const testimonials = [
     bg: '#7a5a0a',
     result: '3 premiers clients en 7 jours',
     quote:
-      'J'avais essayé de faire ma page moi-même pendant 2 mois. Steve l'a faite en un weekend. Moderne, mobile, et le texte est tellement bien écrit. J'ai eu mes 3 premiers clients la semaine suivante.',
+      `J'avais essayé de faire ma page moi-même pendant 2 mois. Steve l'a faite en un weekend. Moderne, mobile, et le texte est tellement bien écrit. J'ai eu mes 3 premiers clients la semaine suivante.`,
   },
   {
     name: 'Ibrahim Koné',
-    role: 'Dropshippeur, Côte d'Ivoire',
+    role: `Dropshippeur, Côte d'Ivoire`,
     initials: 'IK',
     bg: '#2a4a3a',
     result: 'ROI ×4 en 3 semaines',
     quote:
-      'J'ai payé par Mobile Money, tout s'est passé nickel. La page a multiplié mes conversions par 4 par rapport à mon ancienne. Steve sait vraiment ce qu'il fait. Je recommande à tous les entrepreneurs ivoiriens.',
+      `J'ai payé par Mobile Money, tout s'est passé nickel. La page a multiplié mes conversions par 4 par rapport à mon ancienne. Steve sait vraiment ce qu'il fait. Je recommande à tous les entrepreneurs ivoiriens.`,
   },
   {
     name: 'Marie-Claire Diallo',
@@ -392,7 +392,7 @@ export const testimonials = [
     bg: '#3a3530',
     result: '100 ventes dès le premier mois',
     quote:
-      'Je suis au Sénégal et j'avais peur que ça ne marche pas. Mais Steve a tout géré à distance, rapidement et professionnellement. Ma boutique n'a jamais autant converti. Merci !',
+      `Je suis au Sénégal et j'avais peur que ça ne marche pas. Mais Steve a tout géré à distance, rapidement et professionnellement. Ma boutique n'a jamais autant converti. Merci !`,
   },
 ];
 
@@ -442,7 +442,7 @@ export const faqs = [
   {
     question: 'Quel est le délai de livraison réel ?',
     answer:
-      'Pour le service Sur Mesure : vous m'envoyez votre brief le samedi matin, je livre votre page le dimanche soir — soit 48h maximum. Si vous commandez en semaine, je planifie la livraison pour le weekend suivant. Pour le Kit Lancement, accès immédiat après paiement.',
+      `Pour le service Sur Mesure : vous m'envoyez votre brief le samedi matin, je livre votre page le dimanche soir — soit 48h maximum. Si vous commandez en semaine, je planifie la livraison pour le weekend suivant. Pour le Kit Lancement, accès immédiat après paiement.`,
   },
   {
     question: 'Comment puis-je payer ? Le Mobile Money est accepté ?',
@@ -455,9 +455,9 @@ export const faqs = [
       'Absolument. Envoyez-moi un message WhatsApp et je vous envoie mon portfolio avec des exemples concrets dans différents secteurs : coaching, e-commerce, services B2B, formations en ligne.',
   },
   {
-    question: 'Je n'y connais rien en technique. Comment ma page sera-t-elle mise en ligne ?',
+    question: `Je n'y connais rien en technique. Comment ma page sera-t-elle mise en ligne ?`,
     answer:
-      'Je m'en occupe entièrement. Je déploie votre page sur une plateforme gratuite et professionnelle, et je vous envoie votre lien live directement. Si vous avez déjà un domaine, je peux l'y connecter.',
+      `Je m'en occupe entièrement. Je déploie votre page sur une plateforme gratuite et professionnelle, et je vous envoie votre lien live directement. Si vous avez déjà un domaine, je peux l'y connecter.`,
   },
   {
     question: 'Et si le résultat ne me convainc pas ?',
