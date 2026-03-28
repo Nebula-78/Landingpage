@@ -462,7 +462,7 @@ export const faqs = [
   {
     question: 'Et si le résultat ne me convainc pas ?',
     answer:
-      'Deux cycles de révisions sont inclus dans le prix — je retravaille jusqu'à ce que vous soyez pleinement satisfait. Si après ces révisions vous estimez que le travail ne correspond pas à ce qui était convenu, je vous rembourse intégralement.',
+      `Deux cycles de révisions sont inclus dans le prix — je retravaille jusqu'à ce que vous soyez pleinement satisfait. Si après ces révisions vous estimez que le travail ne correspond pas à ce qui était convenu, je vous rembourse intégralement.`,
   },
 ];
 
