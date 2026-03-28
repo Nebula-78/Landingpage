@@ -32,8 +32,8 @@ export const painPoints = [
   {
     icon: '💸',
     title: 'Les agences demandent 300 000 FCFA minimum',
-    desc: "Et après des semaines d'attente, le résultat est générique — une page sans vraie stratégie de vente.",
-  },
+    desc: 'Et après des semaines d\'attente, le résultat est générique — une page sans vraie stratégie de vente.',
+    
   {
     icon: '📉',
     title: 'Vos visiteurs arrivent... et repartent sans acheter',
